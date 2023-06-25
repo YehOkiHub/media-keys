@@ -61,25 +61,33 @@ footer {
 @media (min-width: 768px) {
   header {
     background-color: pink;
+    
   }
 
   #column-1 {
+    width: 50%;
     background-color: orange;
   }
 
   #column-2 {
+    width: 50%;
     background-color: maroon;
   }
 
   #column-3 {
+    width: 50%;
     background-color: magenta;
   }
 
   footer {
     background-color: tomato;
   }
+
+  
   
 }
+
+
 
 
 /*---------- Desktops ----------*/
@@ -90,14 +98,18 @@ footer {
 
   #column-1 {
     background-color: teal;
+    width: 33.33%
   }
 
   #column-2 {
     background-color: aquamarine;
+    width: 33.33%
+
   }
 
   #column-3 {
     background-color: aqua;
+    width: 33.33%
   }
 
   footer {
